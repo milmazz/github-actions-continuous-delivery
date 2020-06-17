@@ -23,7 +23,7 @@ jobs:
 
   deploy:
     name: Deploy Node.js app to AWS
-    need: build
+    needs: build
     runs-on: ubuntu-latest
 
     steps:
